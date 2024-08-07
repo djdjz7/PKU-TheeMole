@@ -1,0 +1,74 @@
+input,
+select,
+textarea {
+  padding: 0.2em 0.75em !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: rgba(128, 128, 128, 0.4) !important;
+  border-radius: 0.5rem !important;
+  background-color: var(--dark-bg) !important;
+  transition: all 200ms !important;
+  color: var(--dark-text) !important;
+  align-self: stretch;
+  height: auto !important;
+  margin: 0 !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  outline: none !important;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  input,
+  select,
+  textarea {
+    background-color: var(--dark-bg) !important;
+    color: var(--light-text) !important;
+  }
+}
+
+.config-select {
+  margin: 0.5em 0 !important;
+  height: unset;
+}
+
+button {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.4);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  transition: all 200ms;
+  color: black;
+}
+
+button:focus {
+  box-shadow: 0 0 0 2px rgba(128, 128, 128, 0.5);
+  outline: none;
+}
+
+button:hover,
+button:focus {
+  filter: brightness(95%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  button {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+  }
+}

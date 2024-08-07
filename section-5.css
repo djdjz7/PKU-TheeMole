@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap-icons/1.8.1/font/fonts/bootstrap-icons.woff2?524846017b983fc8ded9325d94ed40f3")
+      format("woff2"),
+    url("https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap-icons/1.8.1/font/fonts/bootstrap-icons.woff?524846017b983fc8ded9325d94ed40f3")
+      format("woff");
+}
+
+.icon::before,
+.app-switcher-item > img + span::before {
+  display: inline-block !important;
+  font-family: bootstrap-icons !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1 !important;
+  vertical-align: -0.125em !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+.app-switcher-item > img + span::before {
+  margin-right: 0.25em;
+}
+
+.icon-flag::before {
+  content: "\f3cc" !important;
+}
+
+.icon-refresh::before {
+  content: "\f116" !important;
+}
+
+.icon-order-rev::before {
+  content: "\f574" !important;
+}
+
+.icon-star::before {
+  content: "\f588" !important;
+}
+
+.icon-star-ok::before {
+  content: "\f586" !important;
+}
+
+.icon-reply::before {
+  content: "\f268" !important;
+}
+
+.icon-attention::before {
+  content: "\f19f";
+}
+
+.icon-about::before {
+  content: "\f4e1";
+}
+
+.icon-plus::before {
+  content: "\f64d";
+}
+
+.icon-send::before {
+  content: "\f6c0";
+}
+
+.icon-quote::before {
+  content: "\f255";
+}
+
+.app-switcher-item > img {
+  display: none;
+}
+
+.app-switcher-item > img[src^="img/hole"] + span::before {
+  content: "\f29a";
+}
+
+.app-switcher-item > img[src^="img/tree"] + span::before {
+  content: "\f25e";
+}
+
+.app-switcher-item > img[src^="img/score"] + span::before {
+  content: "\f4b5";
+}
+
+.app-switcher-item > img[src^="img/class"] + span::before {
+  content: "\f208";
+}

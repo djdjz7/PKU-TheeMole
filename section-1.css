@@ -1,0 +1,181 @@
+.flow-item > .box {
+  margin: 0.5em 0;
+  padding: 0.5em 0.8em;
+  position: relative;
+  border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  -webkit-backdrop-filter: blur(4em);
+  backdrop-filter: blur(4em);
+}
+
+.flow-reply-row > .box:first-child {
+  margin: 0.5em 0;
+  padding: 0.5em 0.5em 0.5em 1em;
+}
+
+.flow-reply-row > .box {
+  margin: 0.5em 0 0.5em -0.5em;
+  border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.flow-item-quote > .box {
+  margin-left: 2.5em;
+  -webkit-backdrop-filter: blur(4em);
+  backdrop-filter: blur(4em);
+}
+
+.flow-item-row {
+  opacity: 1 !important;
+}
+
+.title-bar {
+  padding-top: 0.5em;
+}
+
+.app-switcher {
+  height: auto !important;
+}
+
+.app-switcher > .app-switcher-item {
+  transition: all 150ms !important;
+  height: auto !important;
+  padding: 0.2em 1em !important;
+  border-radius: 9999px !important;
+  margin: 0 0.2em;
+}
+
+.app-switcher > .app-switcher-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.app-switcher > .app-switcher-item-current {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.aux-margin {
+  display: none;
+}
+
+.title-bar {
+  height: auto;
+  min-height: unset !important;
+  -webkit-backdrop-filter: blur(4em) !important;
+  backdrop-filter: blur(4em) !important;
+}
+
+.title-bar {
+  top: 0 !important;
+}
+
+.quote-tip {
+  color: gray;
+}
+
+.control-btn {
+  transition: all 150ms !important;
+  padding: 0.2em 1em !important;
+  border-radius: 9999px !important;
+  margin: 0;
+  width: max-content !important;
+  height: auto !important;
+  flex: 0 0 !important;
+  align-self: stretch !important;
+}
+
+.control-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.control-btn > span {
+  width: max-content !important;
+}
+
+.control-search {
+  width: auto !important;
+}
+
+.control-bar {
+  margin-top: 0.5em !important;
+}
+
+.control-bar > .el-row {
+  margin: unset !important;
+}
+
+.left {
+  gap: 0.5em;
+}
+
+.flow-item-row p.img img {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.box.reply-sticky {
+  border-radius: 1em;
+  padding: 0.5em;
+}
+
+.box.reply-sticky > div:first-child {
+  margin: 0 !important;
+}
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 1em;
+  margin: 0.5em 0;
+  padding: 0.5em 0.8em;
+}
+
+.sidebar-toolbar-item > a > label,
+.sidebar-toolbar-item > a > span > label {
+  margin-left: 0.2em;
+  cursor: pointer;
+}
+
+.sidebar-title,
+.title-bar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px !important;
+}
+
+.sidebar {
+  -webkit-backdrop-filter: blur(4em) !important;
+  backdrop-filter: blur(4em) !important;
+}
+
+@media screen and (max-width: 570px) {
+  .app-switcher > .app-switcher-item {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 1 0 0px !important;
+    flex: 1 0 0 !important;
+    padding: 0 !important;
+  }
+}
+
+.quote {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.quote.quote-dark {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+:root {
+  --box-bgcolor-dark: rgba(0, 0, 0, 0.8) !important;
+  --box-bgcolor-light: rgba(255, 255, 255, 0.8) !important;
+}
+
+body {
+  --theme_bgc_color: rgba(255, 255, 255, 0.8) !important;
+}
