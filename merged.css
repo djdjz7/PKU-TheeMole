@@ -535,3 +535,8 @@ button:focus {
 .app-switcher-item > img[src^="img/class"] + span::before {
   content: "\f208";
 }
+/* Hide App Download */
+
+.app-switcher > a:nth-child(2) {
+  display: none;
+}
