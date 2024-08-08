@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PKU TheeMole
 // @namespace    https://staybrowser.com/
-// @version      0.1
+// @version      0.2
 // @description  Optimized Treehole UI for Stay
 // @author       You
 // @match        *://treehole.pku.edu.cn/*
