@@ -1,4 +1,4 @@
 .bg-img {
-    -webkit-filter: blur(backgroundBlurRadius);
-    filter: blur(backgroundBlurRadius);
-  }
+  -webkit-filter: blur(backgroundBlurRadius);
+  filter: blur(backgroundBlurRadius);
+}
