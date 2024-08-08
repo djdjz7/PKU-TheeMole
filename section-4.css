@@ -154,6 +154,5 @@
 }
 
 *:not(code) {
-  /*font-family: "Inter", -apple-system, "Microsoft YaHei", sans-serif !important; */
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", -apple-system, "Microsoft YaHei", sans-serif !important;
 }
