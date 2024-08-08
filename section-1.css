@@ -64,6 +64,7 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   background: rgba(0, 0, 0, 0.5) !important;
+  text-shadow: none !important;
 }
 
 .aux-margin {
@@ -170,7 +171,7 @@
     -webkit-box-flex: 0 !important;
     -ms-flex: 1 0 0px !important;
     flex: 1 0 0 !important;
-    padding: 0 !important;
+    padding: 0.2em 0 !important;
   }
 }
 
@@ -189,4 +190,8 @@
 
 body {
   --theme_bgc_color: rgba(255, 255, 255, 0.8) !important;
+}
+
+:root {
+  --var-link-color: rgb(0, 136, 255) !important;
 }
