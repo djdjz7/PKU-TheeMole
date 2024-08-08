@@ -1,5 +1,4 @@
 /* Styles */
-
 .flow-item > .box {
   margin: 0.5em 0;
   padding: 0.5em 0.8em;
@@ -9,6 +8,12 @@
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   -webkit-backdrop-filter: blur(4em);
   backdrop-filter: blur(4em);
+  transition: all 150ms;
+}
+
+.flow-item > .box:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .flow-reply-row > .box:first-child {
@@ -155,7 +160,7 @@
   -webkit-backdrop-filter: blur(4em) !important;
   backdrop-filter: blur(4em) !important;
 }
-  
+
 .box-header-badge {
   margin-right: 0 !important;
 }
