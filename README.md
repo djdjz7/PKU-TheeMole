@@ -1,6 +1,13 @@
 # PKU TheeMole
 
-小登试图整顿树洞 UI，这是他的网页发生的变化：
+小登试图整顿树洞 UI，这是他的网页发生的变化。
+
+## 亮点
+- 更整洁美观的 UI
+- 使用 Inter 字体（可通过 UserStyles 设置关闭）
+- 使用更一致的图标（可通过 UserStyles 设置关闭）
+- 隐藏“客户端”标签（可通过 UserStyles 设置关闭）
+- 自定义背景模糊度（可通过 UserStyles 设置调节）
 
 ## How to use
 ### Chrome/Edge/Other Chromium/Firefox
