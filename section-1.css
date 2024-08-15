@@ -131,6 +131,8 @@
 .box.reply-sticky {
   border-radius: 1em;
   padding: 0.5em;
+  -webkit-backdrop-filter: blur(2em);
+  backdrop-filter: blur(2em);
 }
 
 .box.reply-sticky > div:first-child {
@@ -143,6 +145,11 @@
   border-radius: 1em;
   margin: 0.5em 0;
   padding: 0.5em 0.8em;
+}
+
+.box-tip {
+  -webkit-backdrop-filter: blur(4em);
+  backdrop-filter: blur(4em);
 }
 
 .sidebar-toolbar-item > a > label,

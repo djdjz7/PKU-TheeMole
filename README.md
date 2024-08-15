@@ -30,6 +30,10 @@ After:
 ![after-post](assets/after-details.png)
 
 ## Changelogs
+### 0.3 (2024-8-15)
+- “还有 * 条”按钮的样式修复
+- 回复框的样式修复
+
 ### 0.2 (2024-8-8)
 - 修复图标缺失
 - 现在可以调整背景模糊 (UserStyle)
